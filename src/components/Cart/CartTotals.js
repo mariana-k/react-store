@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import PayPalButton from './PayPalButton'
 import Checkout from './Checkout'
 import context from '../../context'
 

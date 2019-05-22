@@ -5,6 +5,7 @@ import EmptyCart from './EmptyCart'
 import {ProductConsumer} from '../../context'
 import CartList from './CartList'
 import CartTotals from './CartTotals'
+import CartItem from './CartItem';
 
 export default class Cart extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class Cart extends Component {
           {
             value => {
               const {cart} = value;
+              alert(cart)
               if(cart.length>0){
                 return (
                   <React.Fragment>

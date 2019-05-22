@@ -8,6 +8,7 @@
     "react": "^16.8.6",
     "react-async-script-loader": "^0.3.0",
     "react-dom": "^16.8.6",
+    "react-facebook-login": "^4.1.1",
     "react-paypal-express-checkout": "^1.0.5",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
