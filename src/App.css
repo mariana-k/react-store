@@ -1,9 +1,9 @@
 :root {
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
-  --mainWhite: #f3f3f3;
-  --mainDark: #232528;
-  --mainYellow: #ffa400;
+  --mainPurple: #2a2a72;
+  --lightGrey: #f7f7f7;
+  --mainWhite: #ffffff;
+  --mainDark: #2e2e2e;
+  --mainGrey: #e7e7e7;
 }
 
 body {
@@ -19,11 +19,11 @@ body {
 }
 
 .text-blue {
-  color: var(--mainBlue);
+  color: var(--mainPurple);
 }
 
 .text-bright {
-  color: var(--lightBlue);
+  color: var(--lightGrey);
 }
 
 .btn-black {
@@ -43,5 +43,5 @@ body {
 .cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
-  color: var(--mainYellow);
+  color: var(--mainGrey);
 }
